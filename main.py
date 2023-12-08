@@ -2,8 +2,9 @@
 
 import sys
 
+
 def int_input_V_R():
-    "функция ввода чисел V и R"
+    "функция ввода чисел V и R "
     array = (input("введите пару V и R через пробел ")).split()
     if len(array) >= 2:
         while True:
@@ -51,8 +52,6 @@ def data_about_connections(R):
         else:
             break
     return list
-
-
 
 
 def is_full_connected (v: int, r: int, links: list[tuple[int, int]]):
@@ -119,8 +118,6 @@ def type_check(V,R,list):
         print("тип связи: Звезда")
 
 
-
-
 def main():
     "основная функция "
     while True:
@@ -140,6 +137,7 @@ def main():
                         type_check(V,R,list)
         else:
             print("Введите коректную команду")
+
 
 if __name__ == "__main__":
     main()
