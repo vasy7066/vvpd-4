@@ -22,6 +22,7 @@ def int_input_V_R():
         print("Неверный ввод")
         array = (input("введите пару V и R через пробел ")).split()
 
+#я подарю этому прекрасному коду невообразимые комментарии
 
 def int_input():
     "функция ввода кортежа связей"
@@ -40,6 +41,7 @@ def int_input():
             print("Неверный ввод")
             array = (input("введите пару чисел через пробел ")).split()
 
+#я не шучу
 
 def data_about_connections(R):
     "заполнение массива кортежами связей"
@@ -53,7 +55,7 @@ def data_about_connections(R):
     return list
 
 
-
+# от слова совсем
 
 def is_full_connected (v: int, r: int, links: list[tuple[int, int]]):
     "определяем связность сети"
@@ -107,6 +109,7 @@ def holiness_check(V,R,list):
         print("Связь не полносвязная")
     return result
 
+#совсем-совсем
 
 def type_check(V,R,list):
     "находим типип связи"
@@ -144,6 +147,8 @@ def main():
 if __name__ == "__main__":
     main()
 
+def useful():
+    print('eee')
 
 
 
